@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Contact Page</title>
+	<link rel="stylesheet" type="text/css" href="styles1.css">
+	<script type="text/javascript">
+		function validateForm() 
+		{
+		  var x = document.forms["myForm"]["fname"].value;
+		  if (x == "") {
+		    alert("Name must be filled out");
+		    return false;
+		    var y = document.forms["myForm"]["email"].value;
+		  if (y == "") {
+		    alert("Email must be filled out");
+		    return false;
+		    var x = document.forms["myForm"]["feedback"].value;
+		  if (z == "") {
+		    alert("Feedback must be given!");
+		    return false;
+		  }
+		}
+    </script>
+
+</head>
+<body>
+
+	<div class="sidenav">
+		<a href="portfolio.html"><img src="C:\Users\HP\Desktop\pictures\ka.png" class="imag"></a>
+		<a href="portfolio.html">Home</a>
+		<a href="project.html">Projects</a>
+		<a href="contact.html">Contact</a>
+	</div>
+
+	<div class="home">
+		<h1>Contact</h1>
+		<p>
+		<img src="C:\Users\HP\Downloads\mail.png">khushi.a2002@gmail.com</p>
+		<h1 style="text-align: center;">Enquiry Form</h1>
+		<form class="form" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+		<br>
+        First Name: <input type="text" name="fname" placeholder="Enter your first name">
+         <br><br>
+         Last Name: <input type="text" name="lname" placeholder="Enter your last name">
+        <br><br>
+        E-mail id: <input type="email" name="email" placeholder="Enter your email">
+        <br><br>
+        Feedbacks<br><textarea rows="10" name="feedback" placeholder="Anything you want to say" style="width:50vw;"></textarea>
+        <br><br>
+        <input type="submit" value="Submit" style="cursor:default;">
+        <br>
+        <br>
+        </form>
+    </div>
+
+    <br><br><br><hr>
+	 <div class="info">
+    	<a href="https://www,facebook.com"> 
+    		<img src="C:\Users\HP\Downloads\fb.png" class="fb">
+    	</a>
+    	<a href="https://www.linkedn.com">
+    	    <img src="C:\Users\HP\Downloads\in.png">
+    	</a>
+    	<a href="https://www.instagram.com">
+    		<img src="C:\Users\HP\Downloads\ig.png">
+    	</a>
+    </div>
+
+</body>
+</html>

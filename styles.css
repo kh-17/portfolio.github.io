@@ -1,0 +1,121 @@
+.sidenav
+{
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: grey;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+.imag
+{
+	height: 80%;
+	width: 80%;
+	margin-left: 10%;
+}
+.home h1, .home p
+{
+	margin-left: 200px;
+}
+.home h1
+{
+	font-size: 52px;
+	font-family: serif;
+}
+.home img
+{
+	float: right;
+	margin-left: 15px;
+	height: 45%;
+	width: 23%;
+	margin-right: 30px;
+	border:1px solid black;
+	padding: 5px;
+}
+.slideshow-container
+{
+	margin-left: 210px;
+	max-width: 350px;
+	position: relative;
+	border:1px solid black;
+	padding: 5px;
+}
+.mySlides
+{
+	display: none;
+}
+* {box-sizing:border-box}
+.prev , .next
+{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -40px;
+	font-size: 30px;
+	transition: 0.5s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	color: white;
+}
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-left: 20%;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.more
+{
+	margin-left: 200px;
+}
+.info
+{
+	margin-left: 200px;
+	text-align: center;
+}
+.info img
+{
+	width: 5%;
+	height: 5%
+}
+.info a
+{
+	text-decoration: none;
+}
