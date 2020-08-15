@@ -1,7 +1,7 @@
 .sidenav
 {
 	height: 100%;
-	width: 160px;
+	width: 190px;
 	background-color: black;
 	overflow-x: hidden;
 	z-index: 1;
@@ -13,7 +13,7 @@
 .sidenav a
 {
 	padding: 6px 8px 6px 16px;
-	font-size: 25px;
+	font-size: 35px;
 	color: grey;
 	text-decoration: none;
 	display: block;
